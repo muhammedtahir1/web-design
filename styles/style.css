@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Poppins:ital,wght@0,300;1,200&family=Satisfy&family=Whisper&display=swap');
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(131, 132, 108);
+  color: white;
+  box-sizing: border-box;
+
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Lora', serif;
+  overflow-x: hidden;
+}
+
+nav {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid snow;
+  /* font-size: 1.2rem; */
+  margin-bottom: 4rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+
+.home-img {
+  width: 800px;
+  border-radius: 1rem;
+  /* border: 1px solid red; */
+}
+
+.main-text {
+  text-align: right;
+  margin-right: 120px;
+  margin-bottom: 6rem;
+}
+
+.sub-text {
+  margin-right: 7rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-btn {
+  margin-left: 26rem;
+  text-align: right;
+  padding: 0.7rem 1rem;
+  border: 0.6px solid snow;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(232, 227, 222);
+  color: black;
+  margin-top: 8px;
+}

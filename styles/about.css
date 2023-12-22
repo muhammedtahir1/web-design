@@ -1,0 +1,10 @@
+.ac-section {
+  background-color: rgb(232, 227, 222);
+  color: black;
+
+}
+
+.room {
+  border: 1px solid red;
+  font-family: 'Poppins', sans-serif;
+}
