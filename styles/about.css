@@ -1,10 +1,49 @@
 .ac-section {
   background-color: rgb(232, 227, 222);
   color: black;
-
+  padding-bottom: 4rem;
 }
 
 .room {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: 'Poppins', sans-serif;
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: rgb(131, 132, 108);
+  color: white;
+  border-radius: 2rem;
+
+}
+
+.room img {
+  width: 400px;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  /* margin-top: 2rem; */
+}
+
+.room .img2 {
+  width: 380px;
+  height: 90%;
+}
+
+.restaurant {
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: rgb(232, 227, 222);
+  color: black;
+  border-radius: 2rem;
+}
+
+.restaurant img {
+  width: 400px;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+}
+
+.restaurant .img3 {
+  width: 420px;
+}
+
+.dining-section {
+  padding-bottom: 4rem;
 }

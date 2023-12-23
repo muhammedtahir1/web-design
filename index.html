@@ -11,7 +11,7 @@
   <script src="/src/main.js" defer></script>
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/about.css">
-
+  <link rel="stylesheet" href="./styles/contact.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <div>
       <h2 class="text-lg">Hotel+</h2>
     </div>
-    <ul>
+    <ul class="">
       <li><a href="#home">Home</a></li>
       <li><a href="#accommodations">Accommodations</a></li>
       <li><a href="#dining">Dining</a></li>
@@ -49,15 +49,15 @@
     <div class="container">
       <h2 class="text-6xl text-center my-20">Accommodations</h2>
       <div class="img-container flex justify-center items-center gap-[10rem]">
-        <div class="room">
-          <img src="room1.jpg" alt="Room 1">
-          <h3>Deluxe Room</h3>
-          <p>Spacious and elegantly designed.</p>
+        <div class="room text-center">
+          <img src="./public/a1.jpeg" alt="Room 1">
+          <h3 class="text-2xl mt-4">Deluxe Room</h3>
+          <p class="text-sm">Spacious and elegantly designed.</p>
         </div>
-        <div class="room">
-          <img src="room2.jpg" alt="Room 2">
-          <h3>Executive Suite</h3>
-          <p>Luxury at its finest with a panoramic view.</p>
+        <div class="room  text-center">
+          <img src="./public/a2.jpeg" alt="Room 2" class="img2">
+          <h3 class="text-2xl mt-4">Executive Suite</h3>
+          <p class="text-sm">Luxury at its finest with a panoramic view.</p>
         </div>
 
       </div>
@@ -65,41 +65,49 @@
   </section>
 
   <!-- Dining Section -->
-  <!-- <section id="dining">
+  <section id="dining container" class="dining-section">
     <div class="container">
-      <h2>Dining</h2>
-      <div class="restaurant">
-        <img src="restaurant1.jpg" alt="Restaurant 1">
-        <h3>Main Dining Room</h3>
-        <p>Exquisite dishes prepared by our world-class chefs.</p>
-      </div>
-      <div class="restaurant">
-        <img src="restaurant2.jpg" alt="Restaurant 2">
-        <h3>Roof-Top Lounge</h3>
-        <p>Enjoy breathtaking views along with delicious cocktails.</p>
+      <h2 class="text-6xl text-center my-20">Dining</h2>
+      <div class="img-container flex justify-center items-center gap-[10rem] text-center">
+        <div class="restaurant">
+          <img src="./public/b2.jpeg" alt="Restaurant 1">
+          <h3 class="text-2xl mt-4">Main Dining Room</h3>
+          <p class="text-sm">Exquisite dishes prepared by our world-class chefs.</p>
+        </div>
+        <div class="restaurant">
+          <img src="./public/b1.jpeg" alt="Restaurant 2" class="img3">
+          <h3 class="text-2xl mt-4">Roof-Top Lounge</h3>
+          <p class="text-sm">Enjoy breathtaking views along with delicious cocktails.</p>
+        </div>
+
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- Contact Section -->
-  <!-- <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>For reservations and inquiries:</p>
-      <address>
-        <strong>Modern Hotel</strong><br>
-        123 Luxury Street,<br>
-        Cityville, Country<br>
-        Phone: (123) 456-7890<br>
-        Email: info@modernhotel.com
-      </address>
+  <section id="contact" class="contact-section ">
+    <div class="container flex items-center justify-center gap-[10rem]">
+      <div>
+        <h2 class="text-4xl text-left my-20">Contact Us</h2>
+      </div>
+      <div>
+        <p>For reservations and inquiries:</p>
+        <address>
+          <strong>Modern Hotel</strong><br>
+          123 Luxury Street,<br>
+          Cityville, Country<br>
+          Phone: (123) 456-7890<br>
+          Email: info@modernhotel.com
+        </address>
+      </div>
+
     </div>
-  </section> -->
+  </section>
 
   <!-- Footer -->
-  <!-- <footer>
+  <footer class="text-center text-sm ">
     <p>&copy; 2023 Modern Hotel. All rights reserved.</p>
-  </footer> -->
+  </footer>
 
 
 </body>
